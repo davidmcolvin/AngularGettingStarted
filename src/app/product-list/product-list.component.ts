@@ -12,12 +12,10 @@ export class ProductListComponent {
   products = [...products];
 
   share() {
-    console.log('Notification triggeredhdfgh');
     window.alert('The product has been shared!');
   }
 
   onNotify() {
-    console.log('Notification triggered');
     alert('You will be notified when the product goes on sale');
   }
 }
